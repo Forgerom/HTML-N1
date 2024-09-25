@@ -4,20 +4,31 @@
 }
 
 body{
-    background-color: rgb(111, 208, 208);
+    background: rgb(177, 182, 182);
+    background: linear-gradient(90deg, rgb(2, 0,36, 1) 0%,rgb(9, 50, 121) 35%, rgba(0,212,255,1) 100% ) ;
 }
 
 main{
+    display: flex;
 padding: 20px;
-background-color: white;
+background-color: rgba(249, 251, 250, 0.923);
 width: 500px;
 margin: auto;
 box-shadow: 5px 5px 10px black;
+height: 90vh;
+border-radius: 30px;
+justify-content: center;
 text-align: center;
-height: 70vh;
+align-items: center;
+flex-direction: column;
+}
+
+.Login h2 {
+    font-size: 25px;
 }
 
 button{
+    margin-top: 40px;
     width: 300px;
     display: flex;
     justify-content: center;
