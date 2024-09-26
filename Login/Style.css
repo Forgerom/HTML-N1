@@ -42,3 +42,10 @@ button{
     justify-content: center;
     border-radius: 10px;
 }
+
+#Optimus {
+    display: flex;
+    width: 400px;
+    float:inline-end;
+    margin-right: 100px;
+}
